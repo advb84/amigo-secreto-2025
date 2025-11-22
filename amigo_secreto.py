@@ -47,6 +47,19 @@ if st.button("Sortear"):
             participantes[i]: asignados[i] for i in range(len(participantes))
         }
 
+        # 🎈 Animación de globos
+        st.balloons()
+
+        # 🇻🇪 Mostrar una imagen venezolana aleatoria
+        imagenes = [
+            ("https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg", "Bandera de Venezuela"),
+            ("https://upload.wikimedia.org/wikipedia/commons/0/0a/Arepa_de_maiz_blanco.jpg", "Arepa venezolana"),
+            ("https://upload.wikimedia.org/wikipedia/commons/8/8c/Roraima_Tepuy.jpg", "Tepuy Roraima")
+        ]
+        url, caption = random.choice(imagenes)
+        st.subheader("Celebración venezolana 🎉🇻🇪")
+        st.image(url, caption=caption, width=300)
+
 # Mostrar resultados si existen
 if st.session_state.resultados:
     st.subheader("Resultados del sorteo:")
@@ -63,4 +76,4 @@ if st.button("Reiniciar juego"):
     st.session_state.participantes = []
     st.session_state.resultados = {}
     st.success("🇻🇪 Se ha reiniciado el juego. 🎉 ¡Nueva ronda del Amigo Secreto con sabor a arepa venezolana!")
-    st.balloons()  # Animación de globos estilo celebración
+    st.balloons()
