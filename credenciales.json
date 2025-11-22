@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "amigo-secreto-479010",
+  "private_key_id": "8df6cd0cf971954a58af4ccd3a1543143efd290a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3WsXK36k6SHsu\nV9wGVDSsd0j6tL2gXN8q4tGZ0U/Lv9Zmx0WfAzt4SLrQMkKtFYIgF03G/GVTwwVM\npmqooG3d+0bjYHoGohfMti2P+vPpAIx75BgLDpF7sp3cIBdzUg+9w6/eT9kuy/CT\nrJ/VpXXXXXbfp9MG7KGvZNZCZy0xPPhZqVZO+hXZXRLRh5qcnPGsGb+TQhl7eDsd\n82+AEPRt5NsR+xwriRvINVF1j6Qwr4McnBcIxWB2Na4WtDX5NtBESzzYBpAOVyNl\npmEjUsd1jdz5EHRx+Ug2y84eawLXvEDF/2TI/5gjKsgXHDpqzYN5WIkrpi0LULRg\nHjDWvf1bAgMBAAECggEALTwrTQxV+0eTgFDzuun+XshFDHkXyV7wPevciybNGXbY\nJd4myn6pJtlGoYOs2HfUdSdarGtrcjlMbuclrDl8MYZDLGiKYmWOGpadcgaXM1ZL\n0mrpFZ0//jUIZhzSvEQ0FvyWwHGRos50qXIusq5R/tKTt8T3Np+dmiB2DcbXquw1\nHnaAzsDI8GV9p6e1EStGzCK62woRD9NY62Eke+cbspL5mw1L/P8NaRVo2gT+kEwE\nkVK6YPGSx/6GhITKuJp84k4ebtnfvid8udoy4qB8BGtukHyrXoOc6mtV3g5qykCQ\nE7AhSnSmN08KGIQl7dzR0WhtcXkF2TpgCEw3C/0s6QKBgQDqEB6YF6YP9odfV0HJ\nAUFsYMuokg6dJ9IkXoOzypXF9XIQ0y0PbHobrXmGD9U3iVXBf1edvnfkP6N0LRyW\nnC0pG9wkvcqXa6ggHrRAedCUQEEzW8yHHqbQIwSFs3YXYNWR93sxoz7gjkctCaIu\noWae26hY/isCbYOFSkQL0QpgowKBgQDIigFQYnr0NJM3Z+qPbwjnPXVbQfHMvt14\nPtJqifxbBbvVeoWEWqCq94Ptivx+y0ReIvFmwzrcmt65ctqR0+D6PwkwAtwJOnEX\nQNnoJ/Bv0cW9XhpPxhT1PRdi/uHf83Srlq1Zy4s0tmVogQw4MucjuUYXhuBP6F1b\ngLkCES9j6QKBgGLiEnrAquhdh01RCLrJbAFEV2XM5p2gIBg7UbqYIHQ0QE85V/UH\nKAMfY5Kuh65ht7f6e2JqAC6OcBh5onVCX5XZbkSbZcZYtftz3UTL8cFf7+upoZuH\n6INP9+4gJgi0YSW8fvA2fi7SDOHLCxhWGYuNUu7d2f+5knGyMVMoqhCvAoGBAJot\nkAkPTdyGt1B3slyIT14JYDrDHnX9oCQcmIWUhNIuPFVKl3BEhRYsqd9tZebNvEhr\nsRECtDR7VRVa+jP3pBaBdDzXVfg6WEw6bc4RNsehjdeji7MdZWuOhnZz45DciiyJ\n8ckBtorWWGzaGlzytcY/YWYhKkAFNBFvi83NDJRRAoGAdMSowYjU6ymljIXLzjUS\n2XxpFUyehICD0xq7frVlv84zW0huXAcM+FJaTV1hV2Hf/lhhvG2haQ1dqqivOLIk\nHPQYtUUGdH26Ys9+zi+Uvyx6h4J5LrQ+cJVlLjPCh8Ps5rirJQ8FY495dM8VuvD7\n8aJqmRksABOvo5XxnkC/YSc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "amigo-secreto-service@amigo-secreto-479010.iam.gserviceaccount.com",
+  "client_id": "101192783596152368320",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/amigo-secreto-service%40amigo-secreto-479010.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
