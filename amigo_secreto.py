@@ -27,7 +27,7 @@ if st.session_state.participantes:
     for p in st.session_state.participantes:
         st.write(f"- {p}")
 
-# Botón para sortear
+# Botón para sortear (solo una vez)
 if st.button("Sortear"):
     participantes = st.session_state.participantes
     if len(participantes) < 2:
@@ -47,23 +47,15 @@ if st.button("Sortear"):
             participantes[i]: asignados[i] for i in range(len(participantes))
         }
 
-        # 🎈 Animación de globos
-        st.balloons()
+        st.success("🎉 El sorteo se ha realizado. Cada participante puede consultar su resultado.")
 
-# Mostrar resultados si existen
+# Consulta individual con globos
 if st.session_state.resultados:
-    st.subheader("Resultados del sorteo:")
-    for persona, amigo in st.session_state.resultados.items():
-        st.write(f"{persona} → {amigo}")
+    consulta = st.text_input("Escribe tu nombre para ver tu Amigo Secreto:")
+    if consulta.strip() != "":
+        if consulta in st.session_state.resultados:
+            st.info(f"👉 {consulta}, tu Amigo Secreto es: {st.session_state.resultados[consulta]} 🎁")
+            st.balloons()  # 🎈 Animación especial solo para el participante
+        else:
+            st.error("Ese nombre no está en la lista de participantes.")
 
-    # Botón para borrar solo resultados
-    if st.button("Borrar resultados"):
-        st.session_state.resultados = {}
-        st.success("Los resultados han sido borrados. ¡Listo para un nuevo sorteo!")
-
-# Botón para reiniciar todo
-if st.button("Reiniciar juego"):
-    st.session_state.participantes = []
-    st.session_state.resultados = {}
-    st.success("🎉 Se ha reiniciado el juego. ¡Nueva ronda del Amigo Secreto!")
-    st.balloons()
